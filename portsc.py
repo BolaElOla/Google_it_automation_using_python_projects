@@ -3,7 +3,6 @@ import sys,socket
 ip =socket.gethostbyname(sys.argv[1])
 ports = sys.argv[2]
 
-request = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
 for x in range(int(ports)):
 
